@@ -1,0 +1,3 @@
+// build time:Fri Jul 03 2020 14:39:21 GMT+0800 (GMT+08:00)
+PR.registerLangHandler(PR.createSimpleLexer([["pun",/^[:|>?]+/,null,":|>?"],["dec",/^%(?:YAML|TAG)[^#\r\n]+/,null,"%"],["typ",/^[&]\S+/,null,"&"],["typ",/^!\S*/,null,"!"],["str",/^"(?:[^\\"]|\\.)*(?:"|$)/,null,'"'],["str",/^'(?:[^']|'')*(?:'|$)/,null,"'"],["com",/^#[^\r\n]*/,null,"#"],["pln",/^\s+/,null," \t\r\n"]],[["dec",/^(?:---|\.\.\.)(?:[\r\n]|$)/],["pun",/^-/],["kwd",/^[\w-]+:[ \r\n]/],["pln",/^\w+/]]),["yaml","yml"]);
+//rebuild by neat 
